@@ -1,0 +1,73 @@
+img {
+    transition: all 0.2s linear;
+}
+
+.bg-lightr {
+    background-color: #fff;
+}
+
+.dark-card:hover img {
+    transform: scale(1.1);
+}
+
+.header {
+    background-color: #000;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid rgba(222, 228, 236, .1);
+}
+
+.dark-card {
+    background: #212529 !important;
+    border: 1px solid #1f2940 !important;
+    box-shadow: 5px 10px 2px 1px gray;
+    border-radius: 7px;
+    padding: 20px 20px;
+}
+
+.div {
+    position: fixed;
+    top: 12px;
+    right: 50px;
+}
+
+.mt-6 {
+    margin-top: 100px;
+}
+
+.table-bordered-theme {
+    border: 1px solid rgba(234, 236, 241, .1) !important;
+}
+
+.table thead th {
+    border: 1px solid rgba(227, 231, 237, .1) !important;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.table tbody tr:nth-of-type(2n+1) {
+    background-color: #072617;
+}
+
+.table tbody td {
+    border: 1px solid rgba(234, 236, 241, .1) !important;
+    color: rgba(255, 255, 255, .7) !important;
+    vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
